@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@100;300;400&display=swap');
+
+.liste-films-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 90%;
+    gap: 1em;
+    margin: 70px auto;
+    text-decoration: none;
+}
+
+.liste-films-container a {
+    text-decoration: none;
+}
+
+.liste-films-container h2 {
+    font-family: 'Big Shoulders Display', sans-serif;
+}
+
+.liste-films-container p {
+    font-size: 25px;
+}
+
+.liste-films {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1em;
+    width: 800px;
+    background-color: #373434;
+    border-radius: 25px;
+    padding: 30px;
+}
+
+.liste-films:hover {
+    opacity: 0.7;
+    transition: all 0.3s ease-in-out;
+}
+
+.liste-films img {
+    width: 300px;
+    height: 350px;
+    object-fit: contain;
+    filter: drop-shadow(-8px 5px 10px #f0efef);
+}
+
+.film-details {
+    color: rgb(212, 217, 221);
+    font-size: 2em;
+    padding: 20px;
+    
+}
